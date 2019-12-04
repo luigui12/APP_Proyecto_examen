@@ -20,5 +20,13 @@ namespace APP_Proyecto_examen
             this.limite.Text = "";
             this.suma.Text = "";
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int limite = 0;
+            limite = int.Parse(this.limite.Text);
+            int suma = Clases.Examen.sumatoria(limite);
+            this.suma.Text = suma.ToString();
+        }
     }
 }

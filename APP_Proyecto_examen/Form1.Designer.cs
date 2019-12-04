@@ -71,6 +71,7 @@
             this.button2.TabIndex = 3;
             this.button2.Text = "Calcular";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -95,6 +96,7 @@
             // 
             this.suma.Location = new System.Drawing.Point(241, 85);
             this.suma.Name = "suma";
+            this.suma.ReadOnly = true;
             this.suma.Size = new System.Drawing.Size(100, 20);
             this.suma.TabIndex = 6;
             // 
