@@ -53,6 +53,7 @@
       <DependentUpon>Arreglo_numeros%28arrays%29.cs</DependentUpon>
     </Compile>
     <Compile Include="Clases\Examen.cs" />
+    <Compile Include="Clases\numero_reales.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

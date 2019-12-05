@@ -16,7 +16,7 @@ namespace APP_Proyecto_examen
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Serie_Factorial());
+            Application.Run(new Arreglo_numeros_arrays_());
         }
     }
 }
